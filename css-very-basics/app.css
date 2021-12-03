@@ -7,7 +7,7 @@ button{
     color: magenta;
 }
 p{
-    background-color: mediumpurple;
+    /* background-color: mediumpurple; */
     text-align: right;
     font-weight: bold;
     line-height: 2;
@@ -24,6 +24,7 @@ h1{
     /* text-decoration: underline; */
     text-decoration: #f78120 overline;
     letter-spacing: 15px;
+    font-size: 80px;
 }
 a{
     text-decoration: none;
