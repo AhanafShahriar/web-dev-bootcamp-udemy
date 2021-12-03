@@ -1,0 +1,9 @@
+div{
+    /* modifying content size inside box model */
+    width: 200px;
+    height: 200px;
+    background-color: #8ecae6;
+}
+h1{
+    background-color: pink;
+}
