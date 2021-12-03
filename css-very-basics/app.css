@@ -22,9 +22,15 @@ body{
 h1{
     text-align: center;
     /* text-decoration: underline; */
-    text-decoration: #f78120 overline;
+    text-decoration: #f78120 overline wavy;
     letter-spacing: 15px;
     font-size: 80px;
+    /* font-family: arial;
+    font-family: verdana; */
+    /* font-family: avant garde,arial; */
+    /* font-family: sans-serif; */
+    font-family: fantasy;
+
 }
 a{
     text-decoration: none;
