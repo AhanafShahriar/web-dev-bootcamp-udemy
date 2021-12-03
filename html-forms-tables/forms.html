@@ -34,7 +34,7 @@
         <p>
             <label>
                 Enter a Number:
-                <input type="number" placeholder="enter a number" name="number">
+                <input type="number" placeholder="enter a number" name="number" min="1" max="10">
             </label>
         </p>
         <!--submit button using button.
@@ -81,7 +81,24 @@
             </select>
 
         </p>
+
+        <p>
+            <label for="cheese">Amount of Cheese</label>
+            <input type="range" id="cheese" name="chesse_level" min="1" max="100" step="7" value="75">
+        </p>
+        <p>
+            <label for="requests">
+                <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+            </label>
+        </p>
         <button>Submit</button>
+
+        <h2>Validations Demo</h2>
+        <form action="/dummy">
+            <label for="first">Enter Firstname:</label>
+            <input type="text" name="first" id="first" required>
+            <button>Submit</button>
+        </form>
     </form>
 </body>
 </html>
