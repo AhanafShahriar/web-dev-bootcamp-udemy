@@ -31,3 +31,13 @@ h2 + button{
 footer > a{
     color: blueviolet
 }
+/* attribute selector */
+input[type="password"]{
+        color: greenyellow;
+}
+section[class="post"]{
+    background-color: lightgrey;
+}
+a[href="www.google.com"]{
+    color: green;
+}
