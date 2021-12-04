@@ -15,6 +15,8 @@ h1,h2{
 }
 .post a{
     color:rgb(32, 207, 190);
+    text-decoration: none;
+    font-weight: 700;
 }
 footer a{
     color: rgb(206, 84, 84);
@@ -41,3 +43,31 @@ section[class="post"]{
 a[href="www.google.com"]{
     color: green;
 }
+/* pseudo classes */
+.post button:hover{
+    background-color: orangered;
+    color: papayawhip;
+}
+.post a:hover{
+    text-decoration: underline;
+}
+.post button:active{
+    background-color: rgb(10, 216, 103);
+}
+.post:nth-of-type(3){
+    background-color: rgb(233, 235, 152);
+}
+/* psuedo element */
+h2::first-letter{
+    font-size: 30px;
+
+}
+p::first-line{
+    color: darkorange;
+}
+p::selection{
+    background-color: darkseagreen;
+}
+/* it will work on whole document ::selection{
+    background-color: darkseagreen;
+} */
