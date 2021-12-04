@@ -9,3 +9,7 @@ button{
 h1,h2{
     color: darkslateblue;
 }
+.tag{
+    background-color: #e63946;
+    color: wheat ;
+}
