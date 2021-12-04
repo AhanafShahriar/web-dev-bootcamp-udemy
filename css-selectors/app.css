@@ -19,3 +19,15 @@ h1,h2{
 footer a{
     color: rgb(206, 84, 84);
 }
+/* adjacent selector */
+input + button{
+    background-color: pink ;
+}
+h2 + button{
+    font-size: 20px;
+    /* background-color: magenta; */
+}
+/* direct descendent selector */
+footer > a{
+    color: blueviolet
+}
