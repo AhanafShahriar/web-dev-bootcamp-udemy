@@ -1,6 +1,6 @@
 *{
     /* color: pink; */
-    background-color: cyan;
+    background-color: rgb(243, 236, 175);
 }
 button{
     font-size: 30px;
@@ -12,4 +12,10 @@ h1,h2{
 .tag{
     background-color: #e63946;
     color: wheat ;
+}
+.post a{
+    color:rgb(32, 207, 190);
+}
+footer a{
+    color: rgb(206, 84, 84);
 }
